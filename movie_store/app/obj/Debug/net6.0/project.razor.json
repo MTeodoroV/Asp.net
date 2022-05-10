@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\app.csproj",
+  "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\app.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,38 +16298,23 @@
   "RootNamespace": "app",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\Asp.net\\movie_store\\app\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\Home\\Responder.cshtml",
+      "TargetPath": "Views\\Home\\Responder.cshtml",
       "FileKind": "mvc"
     }
   ],

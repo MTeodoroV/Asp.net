@@ -1,10 +1,32 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using App.Models;
 
-namespace app.Controllers;
-public class HomeController : Controller
+namespace App.Controllers
 {
-    public ViewResult Index(int? id)
+    public class HomeController : Controller
     {
-        return View(id);
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Responder()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Responder(Resposta resposta)
+        {
+            Repositorio.AdicionarResposta(resposta);
+            return Content("Recebemos sua resposta com sucesso.");
+        }
     }
 }
