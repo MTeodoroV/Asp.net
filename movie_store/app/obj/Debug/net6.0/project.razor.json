@@ -16313,6 +16313,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\Home\\Resultado.cshtml",
+      "TargetPath": "Views\\Home\\Resultado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\Home\\Obrigado.cshtml",
+      "TargetPath": "Views\\Home\\Obrigado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\mateu\\Documents\\estudo\\Asp.net\\movie_store\\app\\Views\\Home\\Responder.cshtml",
       "TargetPath": "Views\\Home\\Responder.cshtml",
       "FileKind": "mvc"

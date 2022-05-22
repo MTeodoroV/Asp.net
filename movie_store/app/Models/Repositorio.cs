@@ -9,5 +9,14 @@ namespace App.Models
         {
             respostas.Add(resposta);
         }
+
+        static Repositorio()
+        {
+            respostas.Add(new Resposta(){ Nome="Fulano", Email = "fulano@gmail.com", Sim = true });
+            respostas.Add(new Resposta(){ Nome="Cicrano", Email = "Cicrano@gmail.com", Sim = false });
+            respostas.Add(new Resposta(){ Nome="Beltrano", Email = "Beltrano@gmail.com", Sim = true });
+            respostas.Add(new Resposta(){ Nome="Maria", Email = "Maria@gmail.com", Sim = false });
+            respostas.Add(new Resposta(){ Nome="José", Email = "José@gmail.com", Sim = false });
+        }
     }
 }

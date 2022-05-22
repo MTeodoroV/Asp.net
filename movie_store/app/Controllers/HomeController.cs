@@ -25,8 +25,19 @@ namespace App.Controllers
         [HttpPost]
         public IActionResult Responder(Resposta resposta)
         {
-            Repositorio.AdicionarResposta(resposta);
-            return Content("Recebemos sua resposta com sucesso.");
+            if (ModelState.IsValid)
+            {
+                Repositorio.AdicionarResposta(resposta);
+                return View("Obrigado");
+            }
+            else {
+                return View(resposta);
+            }
+        }
+
+        public IActionResult Resultado()
+        {
+            return View(Repositorio.Respostas);
         }
     }
 }
